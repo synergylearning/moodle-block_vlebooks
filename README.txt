@@ -6,8 +6,7 @@ and can be added to a Moodle homepage or course. The Moodle block will display
 the VleBooks logo and the text 'Click to log in'. When clicked the block will
 build a validated url to call and seamlessly log in to VLeBooks.
 
-Block is tested from Moodle 2.3 onwards, but should work with all Versions of
-Moodle 2.x
+Block works from Moodle 2.3 onwards
 
 
 History

@@ -24,7 +24,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->version   = 2013082200;        // The current plugin version (Date: YYYYMMDDXX).
-$plugin->requires  = 2011120501;        // Requires this Moodle version.
+$plugin->requires  = 2012062500;        // Requires this Moodle version.
 $plugin->cron = 0;
 $plugin->release = 'Version 1.0';
 $plugin->component = 'block_vlebooks'; // Full name of the plugin (used for diagnostics).
+$plugin->maturity = MATURITY_STABLE;
