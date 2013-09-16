@@ -1,0 +1,8 @@
+.block_vlebooks .content {
+    text-align: center;
+}
+
+.block_vlebooks .content  a:active,
+.block_vlebooks .content  a:focus {
+    outline: none;
+}
