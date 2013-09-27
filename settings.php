@@ -43,11 +43,11 @@ if ($hassiteconfig) {
     $settings->add(new admin_setting_configtext('block_vlebooks/id',
                     new lang_string('id', 'block_vlebooks'),
                     new lang_string('iddesc', 'block_vlebooks'),
-                    '', PARAM_INT, 30));
+                    '', PARAM_TEXT, 30));
 
     $settings->add(new admin_setting_configtext('block_vlebooks/accId',
                     new lang_string('accId', 'block_vlebooks'),
                     new lang_string('accIddesc', 'block_vlebooks'),
-                    '', PARAM_INT, 30));
+                    '', PARAM_TEXT, 30));
 
 }
